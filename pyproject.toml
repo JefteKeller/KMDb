@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kmdb"
+version = "1.0.0"
+description = ""
+authors = ["Jefte Keller <kellergnr@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.4"
+djangorestframework = "^3.12.4"
+
+[tool.poetry.dev-dependencies]
+ipdb = "^0.13.9"
+coverage = "^5.5"
+pylint = "^2.8.3"
+yapf = "^0.31.0"
+pip = "^21.1.2"
+autopep8 = "^1.5.7"
+black = {version = "^21.6b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
