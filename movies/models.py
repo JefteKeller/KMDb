@@ -25,7 +25,7 @@ class Review(models.Model):
     )
 
     review = models.TextField()
-    spoiler = models.BooleanField()
+    spoilers = models.BooleanField()
 
     movie = models.ForeignKey(
         Movie, related_name='criticism_set', on_delete=models.CASCADE
